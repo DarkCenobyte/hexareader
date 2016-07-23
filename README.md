@@ -1,0 +1,2 @@
+# hexareader
+Javascript hexadecimal editor
