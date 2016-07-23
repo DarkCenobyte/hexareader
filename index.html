@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HexaReader</title>
+  <style>
+  .dropzone {
+    background-color: green;
+    width: 500px;
+    height: 500px;
+  }
+  .hexViewTpl {
+    float:left;
+  }
+  .lines {
+    float: left;
+    margin-top: 0px;
+    color: blue;
+  }
+  .columns {
+    color: red;
+    width: 400px;
+  }
+  .cells {
+
+  }
+  #hexView {
+    float:left;
+    width: 400px;
+  }
+  </style>
+</head>
+<body>
+  <h1>HexaReader</h1>
+  <div class="toolbar"></div>
+  <div class="dropzone"></div>
+  <div class="editor">
+    <div class="hexViewTpl">
+      <p class="columns">** 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F</p>
+      <p class="lines">00</p><div id="hexView"></div>
+    </div>
+    <div id="asciiView"></div>
+  </div>
+  <script src="jquery-3.1.0.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
